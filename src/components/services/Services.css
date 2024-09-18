@@ -1,0 +1,25 @@
+.para {
+    color: white;
+}
+
+.rideBox {
+    background-color: grey;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    padding: 30px 25px;
+}
+
+.services1Box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.services2Box {
+    display: flex;
+    gap: 85px;
+    margin-left: 85px;
+}

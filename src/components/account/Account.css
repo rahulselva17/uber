@@ -1,0 +1,61 @@
+.all {
+    color: white
+}
+
+.starBox {
+    border-radius: 24px;
+    background-color: grey;
+    width: 56px;
+    padding: 0px 3px;
+}
+
+.photoBox {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.account1Box {
+    background-color: grey;
+    border-radius: 10px;
+    width: 80px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.walletBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.safetyCheckBox {
+    background-color: grey;
+    width: 80%;
+    padding: 5px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 110px;
+}
+
+.account2Box {
+    display: flex;
+    align-items: center;
+}
+
+.userIcon {
+    padding: 25px;
+}

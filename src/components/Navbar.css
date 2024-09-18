@@ -1,0 +1,38 @@
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li a .icon {
+    margin-right: 5px;
+  }
+  
+  nav ul li a.active {
+    color: red;
+    font-weight: bold;
+  }
+
+  nav ul li a.active .icon {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Optional: Style for hovering over the link */
+  nav ul li a:hover {
+    color: red;
+    font-weight: bold;
+  }
+  

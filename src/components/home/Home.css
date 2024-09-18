@@ -1,0 +1,89 @@
+.para {
+    margin-left: 6px;
+}
+
+.heading {
+    color: white;
+}
+
+.imageBox{
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    gap: 10px;
+}
+
+.imageBox ::-webkit-scrollbar {
+    display: none;
+  }
+
+.imageBox div {
+    flex-shrink: 0;
+}
+
+.imageContainer {
+    margin-right: 40px;
+}
+
+.myImage {
+    border-radius: 10px;
+    height: 192px;
+    width: 280px;
+    
+}
+
+.imageHeading {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}   
+
+.imageSide {
+    color: white;
+    font-size: smaller;
+    margin-top: -10px;
+   
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 600px;
+    background-color: #f0f0f0a1;
+  }
+
+  .search-bar-container:hover .search-input {
+    color: black;
+    background-color: grey;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #f0f0f0a1;
+  }
+  
+  .search-icon {
+    color: #f0f0f0a1;
+    margin-right: 5px;
+  }
+  
+  .search-bar-container:hover .search-icon,
+  .search-bar-container:focus-within .search-icon,
+  .search-bar-container:hover .search-input{
+    color: #000;  /* Change color when the search bar is focused */
+  }
+  
+  .search-bar-container:hover,
+  .search-bar-container:focus-within {
+    border-color: #f0f0f0a1;  /* Change border color when the search bar is focused */
+  }
+  
