@@ -9,16 +9,16 @@
   .circle-progress {
     position: absolute;
     border-radius: 50%;
-    border: 10px solid #ddd; /* Background color */
+    border: 10px solid #ddd; 
     box-sizing: border-box;
   }
   
   .circle-progress {
-    border-color: #4caf50; /* Progress color */
-    clip-path: circle(); /* Clip to a circle */
-    stroke-dasharray: 0; /* Initial value, updated by inline styles */
-    stroke-dashoffset: 0; /* Initial value, updated by inline styles */
-    transform: rotate(-90deg); /* Rotate for progress effect */
+    border-color: #4caf50; 
+    clip-path: circle(); 
+    stroke-dasharray: 0; 
+    stroke-dashoffset: 0; 
+    transform: rotate(-90deg); 
   }
   
   .circle-content {

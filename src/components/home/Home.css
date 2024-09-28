@@ -47,6 +47,7 @@
 }
 
 .search-bar-container {
+    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,11 +80,11 @@
   .search-bar-container:hover .search-icon,
   .search-bar-container:focus-within .search-icon,
   .search-bar-container:hover .search-input{
-    color: #000;  /* Change color when the search bar is focused */
+    color: #000; 
   }
   
   .search-bar-container:hover,
   .search-bar-container:focus-within {
-    border-color: #f0f0f0a1;  /* Change border color when the search bar is focused */
+    border-color: #f0f0f0a1; 
   }
   

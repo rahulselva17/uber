@@ -7,6 +7,7 @@ import Activity from './components/activity/Activity';
 import Navbar from './components/Navbar';
 import Eats from './components/eats/Eats';
 import Wallet from './components/account/wallet/Wallet';
+import UberAccount from './components/account/uber account/UberAccount';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/account" element={<Account />} />
           <Route path="/eats" element={<Eats/>} />
           <Route path="/wallet" element={<Wallet/>} />
+          <Route path='/uberaccount' element={<UberAccount/>} />
         </Routes>
       </div>
     </Router>

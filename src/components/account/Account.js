@@ -1,6 +1,6 @@
 import React from 'react';
 import './Account.css';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import PercentageCircleIcon from './PercentageCircleIcon';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faUsers, faStar, faWallet, faQuestionCircle, faFileInvoice, faLeaf, faCog, faEnvelope, faGift, faTicketAlt, faCar, faBuilding, faHeart, faExclamationTriangle, faTrophy, faTag } from '@fortawesome/free-solid-svg-icons';
@@ -11,6 +11,10 @@ function Account() {
 
   const handleWalletClick = () => {
     navigate("/wallet");
+  }
+
+  const handleUberAccount = () => {
+    navigate("/uberaccount");
   }
 
   return (
@@ -166,12 +170,12 @@ function Account() {
           <h4>Uber Eats favorites</h4>
         </div>
       </div>
-      <div className='account2Box'>
+      <div className='account2Box' onClick={handleUberAccount}>
         <div>
         <FontAwesomeIcon icon={faUser} size="1x" color="white" className='userIcon'/>
         </div>
         <div>
-          <h4>Manage Uber account</h4>
+        <h4>Manage Uber account</h4>
         </div>
       </div>
       <div className='account2Box'>
